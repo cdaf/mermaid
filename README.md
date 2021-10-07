@@ -1,16 +1,15 @@
 # Basic graph
 
-::: mermaid
+```mermaid
 graph
 
   A-->B
   B-->C
-
-:::
+```
 
 # Flowchart
 
-::: mermaid
+```mermaid
 flowchart TD
 
   A[Start] --> B{Is it?};
@@ -18,11 +17,11 @@ flowchart TD
   C --> D[Rethink];
   D --> B;
   B ---->|No| E[End];
-:::
+```
 
 # Connected Subgraphs
 
-::: mermaid
+```mermaid
 flowchart
 
   subgraph one
@@ -35,12 +34,11 @@ flowchart
 
   one --> two
   two --> c2
-
-:::
+```
 
 # Side by side (flowchart)
 
-::: mermaid
+```mermaid
 flowchart
 
   subgraph Default-PreFlow
@@ -53,12 +51,10 @@ flowchart
     KVM-GetRate(KVM-GetRate)
     SpikeArrest(SpikeArrest)
   end
-
-:::
-
+```
 # Side by side using Graph
 
-::: mermaid
+```mermaid
 graph TB
 
   subgraph Default-PostFlow
@@ -73,5 +69,4 @@ graph TB
   subgraph Pre-Proxy-Flow-Hook
     KVM-GetRate(KVM-GetRate) --> SpikeArrest(SpikeArrest)
   end
-
-:::
+```
