@@ -1,3 +1,4 @@
+https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/
 Note yet supported in GitHub https://github.community/t/feature-request-support-mermaid-markdown-graph-diagrams-in-md-files/1922/192
 
 # Basic graph
